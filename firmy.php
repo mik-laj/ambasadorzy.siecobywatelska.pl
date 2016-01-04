@@ -19,7 +19,7 @@ showHead("Firmy");
 		Do udziału w programie zapraszamy Firmy z całej Polski, które:
 		<ul style="list-style: square inside">
 			<li>cenią takie wartości jak: przejrzystość, odpowiedzialność i etyczne działanie.</li>
-			<li>Chcą wspierać te wartości i promować je.</li>
+			<li>Chcą wspierać te asdasdasdasd i promować je.</li>
 			<li>Są gotowe podpisać Deklarację przejrzystości i jej przestrzegać.</li>
 		</ul>
 		<h3>Warunki współpracy</h3>
