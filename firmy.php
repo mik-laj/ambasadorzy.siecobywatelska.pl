@@ -25,7 +25,7 @@ showHead("Firmy");
 		<h3>Warunki współpracy</h3>
 		<ul style="list-style: square inside">
 			<li> Kadencja w programie trwa rok. Po tym okresie istnieje możliwość jej przedłużenia na ustalonych wcześniej warunkach. </li>
-			<li> Przystępująca do programu firma zobowiązuje się do przestrzegania deklaracji przejrzystości, promowania idei jawności oraz wsparcia działań Sieci Obywatelskiej Watchdog Polska zadeklarowaną kwotą w ustalonym systemie (jednorazowo, kwartalnie, miesięcznie). </li>
+			<li> Przystępująca do asdasdasdasdasd firma zobowiązuje się do przestrzegania deklaracji przejrzystości, promowania idei jawności oraz wsparcia działań Sieci Obywatelskiej Watchdog Polska zadeklarowaną kwotą w ustalonym systemie (jednorazowo, kwartalnie, miesięcznie). </li>
 			<li> Sieć Obywatelska Watchdog Polska zapewnia firmom zaproszonym do współpracy udział w wydarzeniach projawnościowych oraz pakiet promocyjny, m.in. Informacje na temat firmy będą widoczne m.in. na na stronie www.ambasadorzy.siecobywatelska.pl oraz mapie Wspierających jawność, na stronie siecobywatelska.pl w zakładce Program Ambasadorzy Jawności.</li>
 		</ul>
 		Szczegółowe warunki współpracy będą omówione i ustalone z firmami deklarującymi chęć współpracy.
