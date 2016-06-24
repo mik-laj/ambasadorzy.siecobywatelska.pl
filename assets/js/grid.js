@@ -1,37 +1,36 @@
-(function (){
-	$(function() {
-		var $grid = $('.grid').masonry({
-			itemSelector: '.grid-item',
-			percentPosition: true,
-			columnWidth: '.grid-sizer',
-			stamp: '.grid-stamp'
-		}).imagesLoaded( function() {
-			// init Masonry after all images have loaded
-			$grid.masonry();
-		});;
+(function iife($) {
+  $(function grid() {
+    const $grid = $('.grid').masonry({
+      itemSelector: '.grid-item',
+      percentPosition: true,
+      columnWidth: '.grid-sizer',
+      stamp: '.grid-stamp',
+    }).imagesLoaded( () => {
+      // init Masonry after all images have loaded
+      $grid.masonry();
+    });
 
-		$('.js-expand-card').click(function (e) {
-			e.preventDefault();
-			var $current_card = $(this).closest('.card2');
-			var $current_grid_item = $current_card.closest('.grid-item');
+    $('.js-expand-card').click(e => {
+      e.preventDefault();
+      const $currentCard = $(this).closest('.card2');
+      const $currentGridItem = $currentCard.closest('.grid-item');
 
-			$current_card.toggleClass('expanded');
-			$current_grid_item.toggleClass('expanded');
-			$(this).text($current_card.hasClass('expanded') ? "Zwiń <" : "Rozwiń >");
+      $currentCard.toggleClass('expanded');
+      $currentGridItem.toggleClass('expanded');
+      $(this).text($currentCard.hasClass('expanded') ? 'Zwiń <' : 'Rozwiń >');
 
-			$('.card2').not($current_card).removeClass('expanded');
-			$('.grid-item').not($current_grid_item).removeClass('expanded');
-			$('.js-expand-card').not(this).text("Rozwiń >");
+      $('.card2').not($currentCard).removeClass('expanded');
+      $('.grid-item').not($currentGridItem).removeClass('expanded');
+      $('.js-expand-card').not(this).text("Rozwiń >");
 
-			// Refresh grid;
-			$grid.masonry();
-		});
+      // Refresh grid;
+      $grid.masonry();
+    });
 
-		// Wait for iframe ex. Youtube
-		// setTimeout(function() {
-		// 	// Refresh grid;
-		// 	$grid.masonry();
-		// }, 500)
-
-	});
-} (jQuery));
+    // Wait for iframe ex. Youtube
+    // setTimeout(function() {
+    //  // Refresh grid;
+    //  $grid.masonry();
+    // }, 500)
+  });
+}(jQuery));
